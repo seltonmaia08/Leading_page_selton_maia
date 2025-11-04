@@ -78,7 +78,7 @@ body {
 }
 
 .main_ #home p {
-    margin: 5rem 0rem 0rem 10rem;
+    margin: 5rem 0rem 2rem 10rem;
     color: var(--color_text);
     font-size: 12pt;
     width: 15rem;
@@ -86,8 +86,10 @@ body {
 
 .main_ a{
     text-decoration: none;
-   margin-left: 10rem;
-   margin-top: 50rem;
-   padding: 1rem;
-   background-color: var(--color_title);
+    margin-left: 10rem;
+    padding: 10px 20px 10px 20px;
+    background-color: var(--color_title);
+    border-radius: 2rem;
+    color: var(--bg);
+    font-weight: bolder;
 }
